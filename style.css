@@ -1,0 +1,141 @@
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/* Hero Section */
+.bg-primary {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://i0.wp.com/fahum.umsu.ac.id/wp-content/uploads/2024/05/Sejarah-Bendera-Pusaka-Merah-Putih-Indonesia.jpg?fit=1366%2C768&ssl=1") no-repeat center center/cover;
+}
+
+.btn-light {
+  border-radius: 30px;
+  transition: transform 0.3s ease;
+}
+
+.btn-light:hover {
+  transform: scale(1.1);
+}
+
+/* Tentang Produk */
+#tentang h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#tentang i {
+  margin-bottom: 15px;
+}
+
+#tentang .col-md-4 h4 {
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+#tentang .col-md-4 p {
+  color: #555;
+}
+
+/* Produk Section */
+.card {
+  border: none;
+  transition: transform 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  color: #666;
+}
+
+/* Olshop */
+#toko-online .card {
+  border: none;
+  transition: transform 0.3s ease;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#toko-online .card:hover {
+  transform: translateY(-10px);
+}
+
+#toko-online i {
+  transition: transform 0.3s ease;
+}
+
+#toko-online .card:hover i {
+  transform: scale(1.1);
+}
+
+#toko-online .btn {
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: white;
+}
+
+#toko-online .btn-warning:hover,
+#toko-online .btn-dark:hover {
+  opacity: 0.9;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+}
+
+footer p {
+  margin: 0;
+  color: #ccc;
+}
+
+footer a {
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}
+
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
